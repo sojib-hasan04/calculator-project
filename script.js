@@ -26,6 +26,6 @@ mulBtn.addEventListener("click", function() {
             result.textContent = "0 diye bhag kora jay na";
         } else {
             const quotient = Number(num1.value) / Number(num2.value);
-            result.textContent = quotient;
+            result.textContent = quotient.toFixed(2);
         }
     });
